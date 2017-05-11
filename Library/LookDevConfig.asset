@@ -75,33 +75,33 @@ MonoBehaviour:
   m_CurrentEditionContextIndex: 0
   m_DualViewBlendFactor: 0
   m_OriginalGameObject:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 100000, guid: 091fbb00ca54df04d8f0e81bb9e5aa32, type: 3}
+  - {fileID: 100000, guid: 091fbb00ca54df04d8f0e81bb9e5aa32, type: 3}
   m_CameraState:
   - m_Pivot:
-      m_Target: {x: 0, y: 0, z: 0}
+      m_Target: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0}
+      m_Value: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
     m_Rotation:
-      m_Target: {x: 0, y: 0, z: 0, w: 1}
+      m_Target: {x: -0.010679119, y: -0.7021334, z: -0.010532809, w: 0.7118877}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0, w: 1}
+      m_Value: {x: -0.010679119, y: -0.7021334, z: -0.010532809, w: 0.7118877}
     m_ViewSize:
-      m_Target: 10
+      m_Target: 3.627952
       speed: 2
-      m_Value: 10
+      m_Value: 3.627952
   - m_Pivot:
-      m_Target: {x: 0, y: 0, z: 0}
+      m_Target: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0}
+      m_Value: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
     m_Rotation:
       m_Target: {x: 0, y: 0, z: 0, w: 1}
       speed: 2
       m_Value: {x: 0, y: 0, z: 0, w: 1}
     m_ViewSize:
-      m_Target: 10
+      m_Target: 4.8279524
       speed: 2
-      m_Value: 10
+      m_Value: 4.8279524
   m_SideBySideCameraLinked: 0
   m_CameraStateCommon:
     m_Pivot:
@@ -118,27 +118,27 @@ MonoBehaviour:
       m_Value: 0
   m_CameraStateLeft:
     m_Pivot:
-      m_Target: {x: 0, y: 0, z: 0}
+      m_Target: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0}
+      m_Value: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
     m_Rotation:
-      m_Target: {x: 0, y: 0, z: 0, w: 1}
+      m_Target: {x: -0.010679119, y: -0.7021334, z: -0.010532809, w: 0.7118877}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0, w: 1}
+      m_Value: {x: -0.010679119, y: -0.7021334, z: -0.010532809, w: 0.7118877}
     m_ViewSize:
-      m_Target: 10
+      m_Target: 3.627952
       speed: 2
-      m_Value: 10
+      m_Value: 3.627952
   m_CameraStateRight:
     m_Pivot:
-      m_Target: {x: 0, y: 0, z: 0}
+      m_Target: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
       speed: 2
-      m_Value: {x: 0, y: 0, z: 0}
+      m_Value: {x: 1.375011, y: 0.07150604, z: -0.000000044703484}
     m_Rotation:
       m_Target: {x: 0, y: 0, z: 0, w: 1}
       speed: 2
       m_Value: {x: 0, y: 0, z: 0, w: 1}
     m_ViewSize:
-      m_Target: 10
+      m_Target: 4.8279524
       speed: 2
-      m_Value: 10
+      m_Value: 4.8279524

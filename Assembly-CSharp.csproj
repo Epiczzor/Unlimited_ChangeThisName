@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3F42B814-2719-E5B0-E4A4-EB62E01A52C2}</ProjectGuid>
+    <ProjectGuid>{2E072AC2-C687-A4A3-37FA-DE73FE1A4213}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\shipMotorScript.cs" />
      <Compile Include="Assets\Scripts\shipUserControl.cs" />
      <Compile Include="Assets\Scripts\smoothFollowCamera.cs" />
+     <Compile Include="Assets\randomTrackGenerator.cs" />
+     <Compile Include="Assets\trackController.cs" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
@@ -79,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0AD0F925-71F7-3A50-E9E2-3F6E172B4B61}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{53938518-7AC1-1C61-A46E-6C9E7EA3426F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
