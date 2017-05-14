@@ -9,7 +9,7 @@ public class randomTrackGenerator : MonoBehaviour {
 	[SerializeField] private int maxActiveTracks = 5;
 
 	private GameObject playerObject;
-	private float trackDisplacement = 100;
+	private float trackDisplacement = 50;
 	private GameObject prevTrack;
 	private Queue<GameObject> currentTracks;
 	private bool destroyedLast;
@@ -22,7 +22,7 @@ public class randomTrackGenerator : MonoBehaviour {
 
 	private void GenerateTrack(){
 		Transform spawn = playerObject.transform;
-		prevTrack = Instantiate (trackMesh [0],new Vector3(spawn.position.x,spawn.position.y-1.0f,spawn.position.z + 100),trackMesh[0].transform.rotation);
+		prevTrack = Instantiate (trackMesh [0],new Vector3(spawn.position.x,spawn.position.y-1.0f,spawn.position.z + 60),trackMesh[0].transform.rotation);
 		currentTracks.Enqueue (prevTrack);
 		SpawnRandomTracks ();
 	}
