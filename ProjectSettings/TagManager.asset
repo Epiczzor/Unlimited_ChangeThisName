@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Track
+  - Sensors
   layers:
   - Default
   - TransparentFX
